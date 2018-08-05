@@ -1,0 +1,4 @@
+[
+    { "name" : "Liverpool - Barcelona(GG/NG)", "outcomes" : [{ "name" : "No goal", "bookie" : "stoiximan", "odds" : 1.91, "stakes" : 53.5279805353 }, { "name" : "Goal", "bookie" : "betrebels", "odds" : 2.2, "stakes" : 46.4720194647 }], "profit" : 2.23844282238 },
+    { "name" : "Arsenal - Bayern Munich", "outcomes" : [{ "name" : "Arsenal (1)", "bookie" : "interwetten", "odds" : 4.1, "stakes" : 24.7827486321 }, { "name" : "X", "bookie" : "interwetten", "odds" : 3.5, "stakes" : 29.0312198262 }, { "name" : "Bayern Munich (2)", "bookie" : "betrebels", "odds" : 2.2, "stakes" : 46.1860315417 }], "profit" : 1.6092693917 }
+]

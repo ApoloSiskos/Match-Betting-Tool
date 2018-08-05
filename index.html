@@ -1,0 +1,76 @@
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="Access-Control-Allow-Origin" content="*"/>
+  <title>BETTING TOOL DESKTOP</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/jquery.multiselect.js"></script>
+  <script type="text/javascript" language="javascript" src="js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" language="javascript" src="js/allinone.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/jquery.multiselect.css" rel="stylesheet" type="text/css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<style>
+body { margin:0; font-family:'Open Sans' Arial, Helvetica, sans-serif}
+ul,li { margin:0; padding:0; list-style:none;}
+.label { color:#000; font-size:16px;}
+</style>
+
+  </head>
+
+<body>
+	<h1>MATCH BETTING TOOL [DESKTOP VERSION ONLY]</h1>
+	<div class="row">
+		<div class="col-sm-6 filter-columns-alt">
+			<div class="ac-custom ac-checkbox ac-cross" autocomplete="off">
+			<select name="langOpt[]" multiple id="langOpt">
+
+			</select>
+
+			<script src="js/jquery.multiselect.js"></script>
+			<script>
+			$('#langOpt').multiselect({
+				columns: 1,
+				placeholder: 'Select Bets',
+				search: true
+			});
+
+			</script>
+			</div>
+			</div>
+		<div class="col-sm-4 filter-columns">
+			<div class="ac-custom ac-checkbox ac-cross" autocomplete="off">
+				<input id="counter-low" class="counter" type="text" placeholder="Min Odds" /> &nbsp; 
+				<input id="counter-high" class="counter"type="text" placeholder="Max Odds" />
+			</div>
+		</div>
+		</div>
+
+<div id="body">
+    
+
+<table>
+  <thead>
+    <tr id="ProductID" class="first">
+        <th>BETTING NAME</th>
+        <th>STAKE</th>
+        <th>ODDS</th>
+        <th>BOOKIE</th>
+        <th>BET</th>
+        <th>PROFIT (from file)</th>
+        <th>PROFIT</th>
+        <th>PROFIT / 100</th>
+        <th>STAKE / 100</th>
+    </tr>
+  </thead>
+  <tbody> </tbody>
+</table>
+
+
+</div>
+
+</body>
